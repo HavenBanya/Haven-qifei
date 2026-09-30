@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "build_id": "7fa30cc9add37d3e",
+  "rendered_at": "2026-07-23T13:24:37+08:00",
+  "content_freeze_id": "demo-freeze-v1",
+  "design_version": "design-v1",
+  "chapter_id": "DEMO",
+  "inputs": {
+    "AGENTS.md": "5c50f9d712db5321a7400e903ce0bde7fa737ec7ae22812fec2ac5568e0378a8",
+    "DESIGN.md": "e8535435b76843a0293b01e29ce49955302fa6d6f8722f7ca8ecde4dd2750f28",
+    "content/proposal-brief.md": "ad26ea0f5981a834c1f02c15958faa9bc6dd4db63026dee6f914354f9c3b67d6",
+    "deck/deck-spec.json": "397e3fef0f02495a3c28941c4fabfcadfd47e39eb9f3e5bd5db54c6852e98b9f",
+    "deck/design-tokens.json": "2dbc3d7bb7e59dc1ac927ce57bc20c9cb5209d04367bead4c81b945e293096c5",
+    "deck/slide-contracts.json": "897dbe653a42db7d4a66fe318b69de4ed0aa6e356c1cf2aec355587204184941",
+    "deck/design-calibration.html": "514cc5159d5be1493b172425d183da5b110e7c2fb42ed3e159f90c5d2474d97d",
+    "evidence/brand-visual-audit.md": "7cfe0031b62162301b0734bf5b6bd5c0cd4ca2fe8f513a8a8c6a9a85ea8cd2a3",
+    "inputs/brand-official/demo-brand-reference.svg": "7c979c3ea97fb2dbaf1bb18a6a8fa1eb8af769bef476e4257955bae852fd85eb",
+    "assets/image2/demo-hero.png": "a96bbd484578b9bc03ac1f81d246ad8e5389ce30350ee18393373d41505e994c"
+  },
+  "runtime": {
+    "skill:assets/html-runtime/deck-template.html": "13a0514d22f82f431fbde5b2a22ef4a73000b8f875bb744aac160e7ac50c62d5",
+    "skill:scripts/render_deck.py": "b7c6299f2a389e08c711ae7067058738a6691380dc86977ae3ff4c7d5eb3c34b",
+    "skill:scripts/validate_deck_spec.py": "48fb9efaf41a3f6402595b761174e6c61654d0883bfbe4a0b69cc81a29c386f5",
+    "skill:scripts/slide_hash.py": "22d122a90fae386038460fa277537648b7462d66acdf0c19da2ab3253972f503",
+    "skill:scripts/validate_project.py": "d3232d00531c312743f7facbd4a20a02d0e9ce7ed185394bd7a63b525e21154b",
+    "skill:scripts/export_deck.mjs": "d01478afa5909bdfeb1b864ebd5405b4f2fbceb51b2a23d56a92a96cd901c71b"
+  },
+  "output": "deck/chapters/DEMO.html",
+  "output_sha256": "03db63828561b69b902d30272ffb11a4e2d61ec98700cb183cd48bbe34408fa4"
+}

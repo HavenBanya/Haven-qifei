@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0",
+  "design_version": "design-v1",
+  "canvas": {"width": 1920, "height": 1080},
+  "brand_visual": {
+    "source_ids": ["DEMO-BRAND-001"],
+    "symbols": ["circular retention cell", "continuous cyan arc"],
+    "palette": [
+      {"name": "official midnight blue", "value": "#061426", "classification": "official_explicit", "source_id": "DEMO-BRAND-001"},
+      {"name": "official cyan", "value": "#56D9FF", "classification": "official_explicit", "source_id": "DEMO-BRAND-001"},
+      {"name": "official warm gold", "value": "#C69442", "classification": "official_explicit", "source_id": "DEMO-BRAND-001"}
+    ]
+  },
+  "colors": {
+    "background": "#040B16",
+    "surface": "#0C2138",
+    "text": "#F3F7FC",
+    "muted": "#9DB2C8",
+    "accent": "#59D7FF",
+    "accent_2": "#F1B65A"
+  },
+  "fonts": {
+    "display": "Microsoft YaHei, PingFang SC, sans-serif",
+    "body": "Microsoft YaHei, PingFang SC, sans-serif"
+  },
+  "spacing": {"safe_x": 104, "safe_y": 76},
+  "radii": {"panel": 30, "pill": 999},
+  "visual_language": "Midnight navy, cool cyan explanation signals, restrained amber retention signals, cinematic transparent materials",
+  "page_system": {
+    "fixed_page_types": ["cover", "toc", "chapter", "closing"],
+    "chapter_variants": ["chapter-type-led", "chapter-image-led", "chapter-data-led"],
+    "content_layouts": ["statement", "split", "cards", "metrics", "process", "case"],
+    "density_levels": ["low", "medium", "high"],
+    "frozen_invariants": ["brand_symbols", "logo_rules", "palette", "typography", "grid", "safe_area", "spacing_scale", "component_language"],
+    "flexible_dimensions": ["columns", "module_mix", "media_ratio", "whitespace", "emphasis"]
+  },
+  "transparent_png": {
+    "enabled": true,
+    "source_dir": "assets/image2/alpha",
+    "approved_dir": "assets/approved/alpha",
+    "alpha_required": true,
+    "text_forbidden": true,
+    "slots": [
+      {"slot_id": "alpha-primary", "anchor": "right-center", "max_width": 760, "max_height": 820, "z_index": 3}
+    ]
+  }
+}
