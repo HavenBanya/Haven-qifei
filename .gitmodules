@@ -1,0 +1,4 @@
+[submodule "skills/qifei-proposal-skill"]
+	path = skills/qifei-proposal-skill
+	url = https://github.com/HavenBanya/qifei-proposal-skill.git
+	branch = codex/qifei-proposal-base
